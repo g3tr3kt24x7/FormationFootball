@@ -36,6 +36,7 @@ export class HomeComponent implements OnInit {
       id: 1,
       formationName: '4-4-2',
       formationClassCollection: [
+        'gk',
         'defense defense-player-1',
         'defense defense-player-2',
         'defense defense-player-3',
@@ -52,6 +53,7 @@ export class HomeComponent implements OnInit {
       id: 2,
       formationName: '4-3-3',
       formationClassCollection: [
+        'gk',
         'defense defense-player-1',
         'defense defense-player-2',
         'defense defense-player-3',
@@ -69,6 +71,7 @@ export class HomeComponent implements OnInit {
       id: 3,
       formationName: '4-3-2-1',
       formationClassCollection: [
+        'gk',
         'defense defense-player-1',
         'defense defense-player-2',
         'defense defense-player-3',
@@ -85,6 +88,7 @@ export class HomeComponent implements OnInit {
       id: 4,
       formationName: '4-2-3-1',
       formationClassCollection: [
+        'gk',
         'defense defense-player-1',
         'defense defense-player-2',
         'defense defense-player-3',
@@ -100,12 +104,24 @@ export class HomeComponent implements OnInit {
   }
 
   getPlayers() {
-    for (let i = 0; i <= 10; i++) {
+    for (let i = 0; i <= 11; i++) {
       this.playerList.push({
         id: i + 1,
         playerName: 'Player' + i.toString(),
-        playerNumber: i +2
+        playerNumber: i + 1,
+        playerImgUrl:''
       });
     }
+    this.playerList[0].playerImgUrl = 'leno_profile.png';
+    this.playerList[1].playerImgUrl = 'monreal_profile.png';
+    this.playerList[2].playerImgUrl = 'koscielny_profile.png';
+    this.playerList[3].playerImgUrl = 'mustafi_profile.png';
+    this.playerList[4].playerImgUrl = 'iwobi_profile.png';
+    this.playerList[5].playerImgUrl = 'torreira_profile.png';
+    this.playerList[6].playerImgUrl = 'guendozi_profile.png';
+    this.playerList[7].playerImgUrl = 'lichsteiner_profile.png';
+    this.playerList[8].playerImgUrl = 'kolasinac_profile.png';
+    this.playerList[9].playerImgUrl = 'aubamayang_profile.png';
+    this.playerList[10].playerImgUrl = 'lacazette_profile.png';
   }
 }

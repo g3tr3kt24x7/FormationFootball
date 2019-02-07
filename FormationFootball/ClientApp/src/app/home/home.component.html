@@ -1,11 +1,12 @@
 <div class="row">
-  <div class="col-md-5 bg-football-field">
-    <div class="circle-disc gk">
-      <p class="player-number">1</p>
-    </div>
+  <div class="col-md-5 bg-football-field">    
     <ng-container *ngFor="let fc of formationModel.formationClassCollection;let i = index;">
       <div class="circle-disc {{fc}}">
-        <p class="player-number">{{playerList[i].playerNumber}}</p>
+        <!--<p class="player-number">{{playerList[i].playerNumber}}</p>-->
+        <div>
+          <img src="../../assets/images/Arsenal/{{playerList[i].playerImgUrl}}" style="width:50px;height:50px;border-radius:50%;" />
+          <p class="player-number-img">{{playerList[i].playerNumber}}</p>
+        </div>
       </div>
     </ng-container>
     <!--<div class="circle-disc defense-player-1">

@@ -5,6 +5,7 @@ var Players = /** @class */ (function () {
         this.id = 0;
         this.playerName = '';
         this.playerNumber = 0;
+        this.playerImgUrl = '';
     }
     return Players;
 }());

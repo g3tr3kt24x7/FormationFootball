@@ -1,1 +1,1 @@
-{"version":3,"file":"players.model.js","sourceRoot":"","sources":["players.model.ts"],"names":[],"mappings":";;AAAA;IAAA;QACE,OAAE,GAAW,CAAC,CAAC;QACf,eAAU,GAAW,EAAE,CAAC;QACxB,iBAAY,GAAW,CAAC,CAAC;IAC3B,CAAC;IAAD,cAAC;AAAD,CAAC,AAJD,IAIC;AAJY,0BAAO"}
+{"version":3,"file":"players.model.js","sourceRoot":"","sources":["players.model.ts"],"names":[],"mappings":";;AAAA;IAAA;QACE,OAAE,GAAW,CAAC,CAAC;QACf,eAAU,GAAW,EAAE,CAAC;QACxB,iBAAY,GAAW,CAAC,CAAC;QACzB,iBAAY,GAAW,EAAE,CAAC;IAC5B,CAAC;IAAD,cAAC;AAAD,CAAC,AALD,IAKC;AALY,0BAAO"}
